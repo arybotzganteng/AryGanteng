@@ -10,7 +10,7 @@ const defaultMenu = {
   before: `
 ╭══════════════════
 ║╭──❉[ *Hai, %name!* ]❉──
-║│➸ 𝖢𝗋𝖾𝖺𝗍𝖾 𝖡𝗒 LynnXzy 
+║│➸ 𝖢𝗋𝖾𝖺𝗍𝖾 𝖡𝗒 AryBotz 
 ║│➸ Tersisa *%limit Limit*
 ║│➸ Role *%role*
 ║│➸ Level 
@@ -29,7 +29,7 @@ const defaultMenu = {
 ║│➸ Waktu: *%time*
 ║│➸ Uptime: *%uptime (%muptime)*
 ║│➸ Database: %rtotalreg dari %totalreg
-║│➸ Sc: github.com/LynnXzy/scbotz-v1
+║│➸ Sc: github.com/arybotzganteng/Aryganteng
 ║╰──────────────────
 ╰════════════════════
 %readmore`.trimStart(),
