@@ -55,7 +55,7 @@ global.kolam = 'https://telegra.ph/file/5aa5dfa3394477e11fb18.jpg'
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/LynnXzy/scbotz-v1
+git clone https://github.com/arybotzganteng/Aryganteng
 cd scbotz-v1
 npm install
 npm update
@@ -78,4 +78,4 @@ node .
 
 # My Sosial 
 - [Group ](https://chat.whatsapp.com/EheAWPrQMhV25xW0N7l7WD) 
-- [Whatsapp ](https://wa.me/60189830350)
+- [Whatsapp ](https://wa.me/79519874382)
