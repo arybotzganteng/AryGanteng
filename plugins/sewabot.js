@@ -11,9 +11,9 @@ let handler = async(m, { conn }) => {
 𝗦𝗶𝗹𝗮𝗸𝗮𝗻 𝗸𝗹𝗶𝗸 𝗽𝗮𝗱𝗮 "𝗟𝗶𝘀𝘁 𝗛𝗮𝗿𝗴𝗮" 𝘂𝗻𝘁𝘂𝗸 𝗺𝗲𝗹𝗶𝗵𝗮𝘁 𝗹𝗶𝘀𝘁.
 ╭═══════════════════════
 ║╭──❉ 〔 𝐕𝐈𝐀 𝐓𝐎𝐏𝐔𝐏 〕 ❉──────
-║│➸ *Digi* : 60149431385
-║│➸ *Umobile*: 60189830350
-║│➸ *Owner*: wa.me/60189830350
+║│➸ *Maxis* : 60177945983
+║│➸ *Hotlink*: 60147751029
+║│➸ *Owner*: wa.me/79519874382
 ║╰─────────────────────
 ╰═══════════════════════`.trim()
     const button = {
@@ -27,7 +27,7 @@ let handler = async(m, { conn }) => {
         {title: 'Ingin jadi premium?', description: "Chat owner.", rowId:".masuk"},
         {title: 'Trial', description: "Free\nBot Free 1 Hari.", rowId:".masuk"},
         {title: 'Owner', description: "Chat owner nya jika ada perlu.", rowId:".owner"},
-        {title: 'Rules', description: "Rules Bot LynnXzy.", rowId:".snk"},
+        {title: 'Rules', description: "Rules Bot AryBotz.", rowId:".snk"},
        ] }],
         listType: 1
        }
