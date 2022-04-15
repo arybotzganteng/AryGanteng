@@ -15,8 +15,8 @@ handler.all = async function (m, { isBlocked }) {
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
-                isBanned ? 'LynXzy tidak aktif' : banned ? 'kamu dibanned' : 'ya?',
-                '©LynXzy🥀   ?',
+                isBanned ? 'NaticsBotz tidak aktif' : banned ? 'kamu dibanned' : 'ya?',
+                '©NaticsBotz🥀   ?',
                 isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
                 isBanned ? '.unban' : banned ? '.owner' : '.?',
                 m.isGroup ? 'Ban' : isBanned ? 'Unban' : 'Donasi',
@@ -36,9 +36,9 @@ handler.all = async function (m, { isBlocked }) {
 ║
 ╠═〘 𝐏𝐄𝐌𝐁𝐀𝐘𝐀𝐑𝐀𝐍 〙 ═
 ╠➥ TOPUP/PIN
-║- 60149431385 (Digi)
-║- 60189830350 (Umobile)
-╠═〘 LynXzy 〙 ═`.trim(), '©LynXzy🥀', 'Digi', '#viadigi', 'Umobile', '#viaumobile', m)
+║- 0147751029 (Hotlink) 
+║- 0146727669 (Hotlink)
+╠═〘 NaticsBotz 〙 ═`.trim(), '©NaticsBotz🥀', 'Hotlink', '#viahotlink', 'Hotlink', '#viahotlink', m)
 }
 
     // salam
