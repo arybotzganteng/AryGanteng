@@ -1,16 +1,16 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
 let info = `╠═〘 PEMBAYARAN 〙 ═
-╠═ Untuk Pembayaran Via Umobile
-╠➥ *60189830350*
+╠═ Untuk Pembayaran Via Hotlink 
+╠➥ *60146727669*
 ╠➥ Chat Owner:
-║- wa.me/60189830350
-╠═〘 LYNXZY 〙 ═
+║- wa.me/79309770056
+╠═〘 NaticsBotz 〙 ═
 `.trim()
 
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*Sewa Bot*', 'status@broadcast') 
 }
-handler.help = ['viaumobile']
+handler.help = ['viahotlink']
 handler.tags = ['info']
-handler.command = /^viaumobile$/i
+handler.command = /^viahotlink$/i
 
 module.exports = handler
