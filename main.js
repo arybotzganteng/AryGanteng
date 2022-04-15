@@ -43,8 +43,8 @@ global.DATABASE = global.db // Backwards Compatibility
 
 global.conn = new WAConnection()
 conn.version =[2,2143,3]
-conn.browserDescription =[' AryBotz ?', 'Unknown', '3.0']
-let authFile = `${opts._[0] || 'OneBotZ'}.json`
+conn.browserDescription =['AryBotz', 'Safari', '3.0'] // ubah yg ini
+let authFile = `${opts._[0] || 'RadBotZ'}.json`
 if (fs.existsSync(authFile)) conn.loadAuthInfo(authFile)
 if (opts['trace']) conn.logger.level = 'trace'
 if (opts['debug']) conn.logger.level = 'debug'
@@ -127,7 +127,7 @@ global.reloadHandler = function () {
     conn.off('CB:action,,call', conn.onCall)
   }
   conn.welcome = 'Hai @user\n Selamat Datang Di Grup:\n*@subject*'
-  conn.bye = 'Selamat Tinggal @user!\nTerimakasih Telah Bergabung Di Grup\n\nKalo Balik Jangan Lupa Bawa Gorengan Buat Anggota Disini'
+  conn.bye = 'Selamat Tinggal @user!\nTerimakasih Telah Bergabung Di Grup\n\nKalo Balik Jangan Lupa Bawa Gorengan Buat Anggota Disini\n\n@LynXzy'
   conn.spromote = 'Waduh @user Sekarang Admin'
   conn.sdemote = 'Alhamdulillah @user Sekarang Bukan Admin:v'
   conn.handler = handler.handler
